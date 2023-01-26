@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
     length = random.randint(12, 16)
 
-    print("MakePass Random Password Genreator v1.0")
+    print("Random Password Genreator")
     print("")
     generate_password(length)
     
