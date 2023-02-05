@@ -1,5 +1,5 @@
 #  Get Wi-Fi Name / Password
-#
+#  created 2.5.2023
 #
 
 (netsh wlan show profiles) | Select-String "\:(.+)$" | %{$name=$_.Matches.Groups[1].Value.Trim(); $_} `
